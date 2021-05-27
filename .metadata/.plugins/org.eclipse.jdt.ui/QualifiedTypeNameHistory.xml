@@ -24,4 +24,17 @@
     <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.exemplo.dois.polygon.Polygon"/>
     <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.exemplo.dois.polygon.Triangle"/>
     <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.factoryMethod.FabricaDeCarro"/>
+    <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.decorator.Coquetel"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.decorators.DataSourceDecorator"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+    <fullyQualifiedTypeName name="java.util.Base64.Encoder"/>
+    <fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
+    <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.decorators.CompressionDecorator"/>
+    <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.decorators.DataSource"/>
+    <fullyQualifiedTypeName name="java.util.Base64"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="vdev.br.edu.ifpe.atividade.decorators.EncryptionDecorator"/>
 </qualifiedTypeNameHistroy>

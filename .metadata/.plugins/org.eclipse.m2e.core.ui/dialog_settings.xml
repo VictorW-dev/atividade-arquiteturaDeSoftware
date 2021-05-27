@@ -45,13 +45,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="vdev.br.edu.ifpe.atividade.decorators"/>
 			<item value="vdev.br.edu.ifpe.atividade"/>
 			<item value="vdev.br.edu.ifpe.atividade.exemplo.entity"/>
 			<item value="vdev.br.i"/>
 		</list>
 		<list key="name">
+			<item value="DecoratorDois"/>
 		</list>
 		<list key="artifactId">
+			<item value="vdev.br.edu.ifpe.atividade.decorators"/>
 			<item value="vdev.br.edu.ifpe.atividade"/>
 			<item value="vdev.br.edu.ifpe.atividade.exemplo.entity"/>
 			<item value="atividadeAvaliativa"/>
