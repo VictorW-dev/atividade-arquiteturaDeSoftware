@@ -1,0 +1,26 @@
+package vdev.br.edu.ifpe.atividade.buttons;
+
+import java.awt.Color;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class WindowsButton {
+	
+	JPanel panel = new JPanel();
+	JFrame frame = new JFrame();
+	JButton button;
+	
+	public void render() {
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JLabel label = new JLabel("Hello World!");
+		label.setOpaque(true);
+		label.setBackground(new Color(235, 233, 126));
+		label.setFont(new Font("Dialog", Font.BOLD, 44));
+		
+	}
+
+}

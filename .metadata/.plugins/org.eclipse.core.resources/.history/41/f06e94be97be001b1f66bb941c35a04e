@@ -1,0 +1,17 @@
+package vdev.br.edu.ifpe.atividade.decorators;
+
+import java.util.Base64;
+import java.util.Base64.Encoder;
+
+public class EncryptionDecorator extends DataSourceDecorator {
+	
+	public EncryptionDecorator(DataSource source) { 
+		super(source);
+	}
+	
+	@Override
+	public void writeData(String data) {
+		super.writeData(Encoder(data));
+	}
+
+}

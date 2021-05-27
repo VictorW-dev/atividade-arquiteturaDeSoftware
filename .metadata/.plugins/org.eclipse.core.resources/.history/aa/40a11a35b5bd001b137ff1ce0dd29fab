@@ -1,0 +1,15 @@
+package vdev.br.edu.ifpe.atividade.exemplo.factory;
+
+import vdev.br.edu.ifpe.atividade.exemplo.entity.Pessoa;
+
+public class FactoryPessoa {
+	
+	public Pessoa getPessoa(String nome, String sexo) {
+		
+		if (sexo.equals("M")) {
+			return new Homem(nome);
+		}
+		
+	}
+
+}

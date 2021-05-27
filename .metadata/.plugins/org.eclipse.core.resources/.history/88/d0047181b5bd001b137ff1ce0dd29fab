@@ -1,0 +1,8 @@
+package vdev.br.edu.ifpe.atividade.exemplo.entity;
+
+public abstract class Pessoa {
+
+	public String nome;
+	public String sexo;
+
+}

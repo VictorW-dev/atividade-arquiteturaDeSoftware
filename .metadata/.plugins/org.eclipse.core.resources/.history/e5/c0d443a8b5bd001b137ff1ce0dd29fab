@@ -1,0 +1,23 @@
+package vdev.br.edu.ifpe.atividade.exemplo.entity;
+
+public abstract class Pessoa {
+
+	public String nome;
+	public String sexo;
+
+}
+
+class FactoryPessoa {
+	
+	public Pessoa getPessoa(String nome, String sexo) {
+		
+		if (sexo.equals("M")) {
+			return new Homem(nome);
+		}
+		if (sexo.equals("F")) {
+			return new Mulher(nome);
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package vdev.br.edu.ifpe.atividade.decorators;
+
+import java.io.*
+
+public class FileDataSource {
+	
+	
+
+}

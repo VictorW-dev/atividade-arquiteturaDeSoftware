@@ -1,0 +1,5 @@
+package vdev.br.edu.ifpe.atividade.exemplo.dois.factory;
+
+public class PolygonFactory {
+
+}

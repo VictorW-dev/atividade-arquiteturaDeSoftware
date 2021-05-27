@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Documentos\Arquitetura de Software\WS-Eclipse-AtividadeAvaliativa\.metadata\.plugins\org.eclipse.jdt.core
+652291863.index
+3089517352.index
+389389742.index
+1914138343.index
+3539496036.index

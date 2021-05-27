@@ -1,0 +1,43 @@
+package vdev.br.edu.ifpe.atividade.decorators;
+
+public class CompressionDecorator extends DataSourceDecorator {
+
+	private int compLevel = 6;
+
+	public CompressionDecorator(DataSource source) {
+		super(source);
+	}
+
+	public int getCompressioLevel() {
+		return compLevel;
+	}
+
+	public void setCompressioLevel(int value) {
+		compLevel = value;
+	}
+
+	@Override
+	public void writeData(String data) {
+		super.writeData(compress(data));
+	}
+
+	@Override
+	public String readData() {
+		return decompress(super.readData());
+	}
+
+	private String compress(String stringData) {
+		byte[] data = stringData.getBytes();
+
+		try {
+			ByteArrayOutputStream bout = new ByteArrayOutputStream(512);
+			DeflaterOutputStream dos = new DeflaterOutputStream(bout, new Deflater(compLevel));
+			dos.write(data);
+			dos.close();
+			bout.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

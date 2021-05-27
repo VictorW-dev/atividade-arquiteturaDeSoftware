@@ -1,0 +1,31 @@
+package vdev.br.edu.ifpe.atividade.decorators;
+
+import java.io.*;
+
+public class FileDataSource implements DataSource {
+	
+	private String name;
+	
+	public FileDataSource(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public void writeData(String data) {
+		
+		File file = new File(name);
+		try (OutputStream fos = FileOutputStream(file)) {
+			fos.write(data.getBytes(), 0, data.length());
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+	@Override
+	public String readData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
